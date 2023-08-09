@@ -754,8 +754,6 @@ ul li {
   flex-wrap: wrap;
   padding: 0 20px;
   justify-content: space-between;
-  align-content: flex-start;
-  align-items: stretch;
   box-sizing: border-box;
 }
 
@@ -786,11 +784,17 @@ ul li {
   box-sizing: border-box;
   width: 100%;
   overflow: auto;
+  flex-grow: 1;
 }
 
 .title-products {
   font-size: 17px;
   margin-bottom: 8px;
+}
+
+.article-products {
+  display: flex;
+  flex-direction: column;
 }
 
 .article-products-preview {
