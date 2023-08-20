@@ -525,6 +525,54 @@
       </div>
     </footer>
   </div>
+
+  <div class="popup visually-hidden">
+    <div class="popup-body">
+      <div class="popup-content">
+        <a href="#" class="popup-close"></a>
+        <form class="form-popup">
+          <div class="form-popup-group">
+            <h2 class="trends-title">Ваш фидбек</h2>
+            <label>
+              <span class="form-popup-text">Как часто вы заходите на сайт?</span>
+              <select class="field-select">
+                <option value="every-day" selected>Почти каждый день</option>
+                <option value="once-a-week">Раз в неделю</option>
+                <option value="once-in-month">Раз в месяц</option>
+                <option value="first-time">Впервые</option>
+              </select>
+            </label>
+          </div>
+        </form>
+        <form class="form-popup-group">
+          <p class="form-popup-text">Вы подписаны на e-mail рассылку?</p>
+          <div class="form-group">
+            <input id="answer1" type="radio" name="answer" value="Да" class="btn-radio">
+            <label for="answer1">
+              Да
+            </label>
+
+            <input id="answer2" type="radio" name="answer" value="Нет" class="btn-radio">
+            <label for="answer2">
+              Нет
+            </label>
+          </div>
+
+        </form>
+        <form class="form-popup-group">
+          <div class="form-group">
+            <span>Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+            <input type="text" class="form-comment" placeholder="Может больше рецептов?" required>
+            <button class="btn-email">
+              <span class="btn-email-title">Отправить</span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+
 </body>
 
 </html>
