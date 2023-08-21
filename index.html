@@ -142,7 +142,7 @@
               <span class="article-link-autor">Неизвестный автор</span>
             </div>
             <p class="article-text">
-              Итак, вы в Питере. Раннее утро.Ред с рек и каналов уже ушел, запущены фонтаны города...Музеи
+              Итак, вы в Питере. Раннее утро. Лед с рек и каналов уже ушел, запущены фонтаны города...Музеи
               еще закрыты. Что посмотреть?
             </p>
           </div>
@@ -547,27 +547,25 @@
         <form class="form-popup-group">
           <p class="form-popup-text">Вы подписаны на e-mail рассылку?</p>
           <div class="form-group">
-            <input id="answer1" type="radio" name="answer" value="Да" class="btn-radio">
-            <label for="answer1">
-              Да
+            <label class="radio-group">
+              <input type="radio" name="radio-group" class="radio-btn" value="Да">
+              <span class="radio-group-text">Да</span>
             </label>
-
-            <input id="answer2" type="radio" name="answer" value="Нет" class="btn-radio">
-            <label for="answer2">
-              Нет
+            <label class="radio-group">
+              <input type="radio" name="radio-group" class="radio-btn" value="Нет">
+              <span class="radio-group-text">Нет</span>
             </label>
           </div>
-
         </form>
         <form class="form-popup-group">
           <div class="form-group">
-            <span>Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
-            <input type="text" class="form-comment" placeholder="Может больше рецептов?" required>
-            <button class="btn-email">
-              <span class="btn-email-title">Отправить</span>
-            </button>
+            <span class="form-popup-text">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+            <textarea class="form-comment" placeholder="Может больше рецептов?" required></textarea>
           </div>
         </form>
+        <button class="btn-email">
+          <span class="btn-email-title">Отправить</span>
+        </button>
       </div>
     </div>
 
