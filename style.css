@@ -1044,7 +1044,7 @@ ul li {
   margin-bottom: 30px;
 }
 
-::placeholder {
+.form-comment::placeholder {
   transform: translateY(-30px);
   vertical-align: top;
 }
