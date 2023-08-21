@@ -380,14 +380,14 @@ ul li {
   }
 }
 
-@media only screen and (orientation: portrait) and (max-device-width: 640px) {
+@media (orientation: portrait) and (max-device-width: 640px) {
   .trend-previewbox {
     width: 100%;
     padding: 70px 20px 20px 20px;
   }
 }
 
-@media only screen and (min-device-width: 641px) and (max-device-width: 1199px) {
+@media (min-device-width: 641px) and (max-device-width: 1199px) {
   .trends-inner {
     display: flex;
     flex-wrap: wrap;
@@ -1027,12 +1027,10 @@ ul li {
 }
 
 .popup-close:before {
-  webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .popup-close:after {
-  webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
@@ -1047,9 +1045,6 @@ ul li {
   color: #333333;
   margin-top: 15px;
   margin-bottom: 30px;
-
-  -webkit-appearance: none;
-  -moz-appearance: none;
 }
 
 .field-select {
