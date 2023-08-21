@@ -1013,9 +1013,9 @@ ul li {
 .popup-close {
   position: absolute;
   top: -40px;
-  right: 30px;
-  width: 0;
-  height: 0;
+  right: -6px;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
 }
 
@@ -1040,8 +1040,13 @@ ul li {
   transform: rotate(-45deg);
 }
 
-.form-popup-group {
+.form-popup {
   margin-bottom: 30px;
+}
+
+::placeholder {
+  transform: translateY(-30px);
+  vertical-align: top;
 }
 
 .field-select,
@@ -1053,6 +1058,7 @@ ul li {
   border: 1px solid #f3f7f5;
   font-size: 13px;
   color: #333333;
+  vertical-align: top;
 
   -webkit-appearance: none;
   -moz-appearance: none;
