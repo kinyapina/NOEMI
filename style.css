@@ -752,10 +752,10 @@ ul li {
   border-color: #b59f5b;
 }
 
-.btn-email {
+.btn-email,
+.btn-popup {
   width: 100%;
   height: 45px;
-  margin-top: 16px;
   box-sizing: border-box;
   border-color: #b59f5b;
   background: #b59f5b;
@@ -764,6 +764,10 @@ ul li {
   color: #ffffff;
   border-style: solid;
   cursor: pointer;
+}
+
+.btn-email {
+  margin-top: 16px;
 }
 
 .btn-email:hover {
@@ -1036,6 +1040,10 @@ ul li {
   transform: rotate(-45deg);
 }
 
+.form-popup-group {
+  margin-bottom: 30px;
+}
+
 .field-select,
 .form-comment {
   display: inline-block;
@@ -1045,8 +1053,6 @@ ul li {
   border: 1px solid #f3f7f5;
   font-size: 13px;
   color: #333333;
-  margin-top: 15px;
-  margin-bottom: 30px;
 
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1068,10 +1074,6 @@ ul li {
 .form-popup-text {
   display: inline-block;
   margin-bottom: 5px;
-}
-
-.form-group {
-  margin-bottom: 30px;
 }
 
 /*popup radio-group*/
