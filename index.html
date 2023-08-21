@@ -528,47 +528,50 @@
 
   <div class="popup visually-hidden">
     <div class="popup-body">
-      <div class="popup-content">
+      <section class="popup-content">
         <a href="#" class="popup-close"></a>
         <h2 class="trends-title">Ваш фидбек</h2>
         <form class="form-popup-group">
-          <label>
-            <span class="form-popup-text">Как часто вы заходите на сайт?</span>
-            <select class="field-select">
-              <option value="every-day" selected>Почти каждый день</option>
-              <option value="once-a-week">Раз в неделю</option>
-              <option value="once-in-month">Раз в месяц</option>
-              <option value="first-time">Впервые</option>
-            </select>
-          </label>
-        </form>
-        <form class="form-popup-group">
-          <span class="form-popup-text">Вы подписаны на e-mail рассылку?</span>
-          <div class="form-group">
-            <label class="radio-group">
-              <input type="radio" name="radio-group" class="radio-btn" value="Да">
-              <span class="radio-group-text">Да</span>
-            </label>
-            <label class="radio-group">
-              <input type="radio" name="radio-group" class="radio-btn" value="Нет">
-              <span class="radio-group-text">Нет</span>
+          <div class="form-popup selection">
+            <label>
+              <span class="form-popup-text">Как часто вы заходите на сайт?</span>
+              <select class="field-select">
+                <option value="every-day" selected>Почти каждый день</option>
+                <option value="once-a-week">Раз в неделю</option>
+                <option value="once-in-month">Раз в месяц</option>
+                <option value="first-time">Впервые</option>
+              </select>
             </label>
           </div>
-        </form>
-        <form class="form-popup-group">
-          <div class="form-group">
-            <span class="form-popup-text">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
-            <textarea class="form-comment" placeholder="Может больше рецептов?" required></textarea>
+          <div class="form-popup radio">
+            <span class="form-popup-text">Вы подписаны на e-mail рассылку?</span>
+            <div class="form-group">
+              <label class="radio-group">
+                <input type="radio" name="radio-group" class="radio-btn" value="Да">
+                <span class="radio-group-text">Да</span>
+              </label>
+              <label class="radio-group">
+                <input type="radio" name="radio-group" class="radio-btn" value="Нет">
+                <span class="radio-group-text">Нет</span>
+              </label>
+            </div>
           </div>
+          <div class="form-popup textarea">
+            <div class="form-group">
+              <span class="form-popup-text">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+              <input type="text" class="form-comment" placeholder="Может больше рецептов?" required></input>
+            </div>
+          </div>
+          <button class="btn-popup">
+            <span>Отправить</span>
+          </button>
         </form>
-        <button class="btn-popup">
-          <span>Отправить</span>
-        </button>
-      </div>
+      </section>
     </div>
-
   </div>
 
 </body>
 
 </html>
+
+<!-- 123 -->
